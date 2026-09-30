@@ -18,10 +18,14 @@ toolchain from source on Fedora: **xschem**, **magic**, **ngspice**, and
 
 - Fedora (tested on Fedora 42)
 - `sudo` access (the scripts install packages and run `make install`)
-- Internet access to GitHub and the Fedora package repos
+- Internet access to GitHub and the Fedora package repos and `git`
 
 ## Usage
+Install `git` and `make`
 
+```bash
+sudo dnf install git make
+```
 Make a script executable and run it:
 
 ```bash
