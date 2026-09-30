@@ -7,7 +7,7 @@ set -e  # stop on first error
 
 echo "==> Installing build dependencies..."
 sudo dnf install -y m4 tcsh csh gcc make git \
-    libX11-devel tcl-devel tk-devel cairo-devel \
+    libX11-devel tcl8-devel tk8-devel cairo-devel \
     ncurses-devel mesa-libGLU-devel freeglut-devel mesa-libGL-devel
 
 echo "==> Cloning magic..."
