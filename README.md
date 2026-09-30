@@ -1,18 +1,18 @@
 # EDA Toolchain Install Scripts (Fedora)
 
 Shell scripts to build and install a basic open-source analog/digital IC design
-toolchain from source on Fedora: **xschem**, **magic**, **ngspice**, and
+toolchain from source on Fedora including: **xschem**, **magic**, **ngspice**, and
 **gaw** (xschem-gaw). Each script installs its own build dependencies via
 `dnf`, clones the upstream repo, builds it, and installs it system-wide.
 
 ## Scripts
 
-| Script               | Installs                                      |
+| Script               | Installs                                       |
 |----------------------|------------------------------------------------|
 | `install_xschem.sh`  | [xschem](https://github.com/StefanSchippers/xschem) — schematic capture / netlisting |
-| `install_magic.sh`   | [magic](https://github.com/RTimothyEdwards/magic) — VLSI layout tool |
-| `install_ngspice.sh` | [ngspice](https://github.com/ngspice/ngspice) — mixed-signal circuit simulator |
-| `install_gaw.sh`     | [xschem-gaw](https://github.com/StefanSchippers/xschem-gaw) — waveform viewer |
+| `install_magic.sh`   | [magic](https://github.com/RTimothyEdwards/magic) — VLSI layout tool                 |
+| `install_ngspice.sh` | [ngspice](https://github.com/ngspice/ngspice) — mixed-signal circuit simulator       |
+| `install_gaw.sh`     | [xschem-gaw](https://github.com/StefanSchippers/xschem-gaw) — waveform viewer        |
 
 ## Requirements
 
