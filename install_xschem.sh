@@ -5,7 +5,7 @@
 
 set -e  # stop on first error
 mkdir -p "$HOME/eda-tools"
-cd $HOME/eda-tool
+cd $HOME/eda-tools
 
 echo "==> Installing build dependencies..."
 sudo dnf install -y gcc git make automake flex bison \
