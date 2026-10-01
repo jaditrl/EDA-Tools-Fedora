@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# install_xschem.sh
+# 2026-10-01
 # Builds and installs xschem (schematic capture / netlisting tool) on Fedora 44.
 # Usage: chmod +x install_xschem.sh && ./install_xschem.sh
 
