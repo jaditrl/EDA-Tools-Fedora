@@ -9,7 +9,7 @@ set -e  # stop on first error
 cd $HOME/eda-tools
 
 echo "==> Installing build dependencies..."
-sudo dnf install -y gcc-c++ bison flex libXaw-devel \
+sudo dnf install -y gcc-c++ git make bison flex libXaw-devel \
     libX11-devel readline-devel libtool automake autoconf
 
 echo "==> Cloning ngspice..."
