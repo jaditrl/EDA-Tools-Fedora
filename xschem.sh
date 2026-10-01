@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # install_xschem.sh
-# Builds and installs xschem (schematic capture / netlisting tool) on Fedora.
+# Builds and installs xschem (schematic capture / netlisting tool) on Fedora 44.
 # Usage: chmod +x install_xschem.sh && ./install_xschem.sh
 
 set -e  # stop on first error
-mkdir -p "$HOME/eda-tools"
+[ -d "$HOME/eda-tools" ] || mkdir "$HOME/eda-tools"
+
 cd $HOME/eda-tools
 
 echo "==> Installing build dependencies..."
@@ -13,7 +14,7 @@ sudo dnf install -y gcc git make automake flex bison \
     cairo-devel tcl8-devel tk8-devel libXpm-devel libjpeg-turbo-devel
 
 echo "==> Cloning xschem..."
-git clone https://github.com/StefanSchippers/xschem.git
+[ -d "$HOME/eda-tools/xschem" ] || git clone https://github.com/StefanSchippers/xschem.git
 cd xschem
 
 echo "==> Configuring and building..."
