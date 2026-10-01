@@ -9,7 +9,7 @@ set -e  # stop on first error
 cd $HOME/eda-tools
 
 echo "==> Installing build dependencies..."
-sudo dnf install -y gcc git make automake flex bison \
+sudo dnf install -y gccgcc-c++ git make automake flex bison \
     libX11-devel libXrender-devel libxcb-devel \
     cairo-devel tcl8-devel tk8-devel libXpm-devel libjpeg-turbo-devel
 
