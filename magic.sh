@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# install_magic.sh
-# Builds and installs Magic (VLSI layout tool) on Fedora.
+# 2026-10-01
+# Builds and installs Magic (VLSI layout tool) tested on Fedora 44.
 # Usage: chmod +x install_magic.sh && ./install_magic.sh
 
 set -e  # stop on first error
