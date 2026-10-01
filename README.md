@@ -63,7 +63,8 @@ script runs `git pull` instead of failing on a duplicate `git clone`.
 
 All four tools are also packaged directly in Fedora, if you'd rather skip
 building from source and don't need the latest upstream version, note that through 
-this method you will not be able to install the latest of version of xschem:
+this method you will not be installing the latest of version of xschem nor will you 
+able to update:
 
 ```bash
 sudo dnf install xschem magic ngspice
