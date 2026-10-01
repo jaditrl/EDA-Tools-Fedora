@@ -4,6 +4,9 @@
 # Usage: chmod +x install_magic.sh && ./install_magic.sh
 
 set -e  # stop on first error
+[ -d "$HOME/eda-tools" ] || mkdir "$HOME/eda-tools"
+
+cd $HOME/eda-tools
 
 echo "==> Installing build dependencies..."
 sudo dnf install m4 tcsh csh gcc-c++ make git \
