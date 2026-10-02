@@ -4,7 +4,7 @@
 # Usage: chmod +x install_magic.sh && ./install_magic.sh
 
 set -e  # stop on first error
-[ -d "$HOME/eda-tools" ] || mkdir "$HOME/eda-tools"
+[ -d "$HOME/eda-tools" ] || mkdir "$HOME/eda-tools" # Creates an eda-tools where all the git folders will be downloaded to in your home file 
 
 cd $HOME/eda-tools
 
