@@ -3,7 +3,7 @@
 Shell scripts to build and install a basic open-source analog/digital IC design
 toolchain from source on Fedora including: **xschem**, **magic**, **ngspice**, and
 **gaw** (xschem-gaw). Each script installs its own build dependencies via
-`dnf`, clones the upstream repo, builds it, and installs it system-wide.
+`dnf |`, clones the upstream repo, builds it, and installs it system-wide.
 
 ## Scripts
 
