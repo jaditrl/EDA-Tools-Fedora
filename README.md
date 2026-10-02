@@ -16,7 +16,7 @@ toolchain from source on Fedora including: **xschem**, **magic**, **ngspice**, a
 
 ## Requirements
 
-- Fedora (tested on Fedora 42)
+- Fedora (tested on Fedora 44)
 - `sudo` access (the scripts install packages and run `make install`)
 - Internet access to GitHub and the Fedora package repos and `git`
 
