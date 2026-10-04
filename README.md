@@ -9,9 +9,9 @@ builds it, and installs it system-wide.
 
 | Script               | Installs                                       |
 |----------------------|------------------------------------------------|
-| `install_xschem.sh`  | [xschem](https://github.com/StefanSchippers/xschem) — schematic capture / netlisting |
-| `install_magic.sh`   | [magic](https://github.com/RTimothyEdwards/magic) — VLSI layout tool                 |
-| `install_ngspice.sh` | [ngspice](https://github.com/ngspice/ngspice) — mixed-signal circuit simulator       |
+| `xschem.sh`  | [xschem](https://github.com/StefanSchippers/xschem) — schematic capture / netlisting |
+| `magic.sh`   | [magic](https://github.com/RTimothyEdwards/magic) — VLSI layout tool                 |
+| `ngspice.sh` | [ngspice](https://github.com/ngspice/ngspice) — mixed-signal circuit simulator       |
 
 ## Requirements
 
