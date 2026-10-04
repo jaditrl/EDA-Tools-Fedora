@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # 2026-10-01
 # Builds and installs xschem (schematic capture / netlisting tool) on Fedora 44.
-# Usage: chmod +x install_xschem.sh && ./install_xschem.sh
+# Usage: chmod +x xschem.sh && ./xschem.sh
 
 set -e  # stop on first error
-[ -d "$HOME/eda-tools" ] || mkdir "$HOME/eda-tools" # Creates an eda-tools where all the git folders will be downloaded to in your home file 
+# Creates a file called eda-tools where all the git repos will be downloaded to  
+[ -d "$HOME/eda-tools" ] || mkdir "$HOME/eda-tools" 
 
 cd $HOME/eda-tools
 
