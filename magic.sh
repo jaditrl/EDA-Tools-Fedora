@@ -4,6 +4,8 @@
 # Tested on Fedora 44.
 # Usage: chmod +x magic.sh && ./magic.sh
 
+sudo dnf update
+
 set -e  # stop on first error
 # Creates a file called eda-tools where all the git repos will be downloaded to  
 [ -d "$HOME/eda-tools" ] || mkdir "$HOME/eda-tools"
