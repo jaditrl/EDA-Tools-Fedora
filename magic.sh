@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 # 2026-10-01
-# Builds and installs Magic (VLSI layout tool) tested on Fedora 44.
-# Usage: chmod +x magic.sh && ./install_magic.sh
+# Builds and installs Magic (VLSI layout tool)
+# Tested on Fedora 44.
+# Usage: chmod +x magic.sh && ./magic.sh
 
 set -e  # stop on first error
+# Creates a file called eda-tools where all the git repos will be downloaded to  
 [ -d "$HOME/eda-tools" ] || mkdir "$HOME/eda-tools"
 
 cd $HOME/eda-tools
