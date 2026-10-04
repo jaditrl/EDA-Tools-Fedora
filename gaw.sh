@@ -20,3 +20,5 @@ echo "==> Run: ./configure"
 echo "==> Build: make"
 
 echo "==> Install: sudo make install"
+
+echo "==> If it installs with no error run: gaw"
