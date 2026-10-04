@@ -9,9 +9,10 @@ builds it, and installs it system-wide.
 
 | Script               | Installs                                       |
 |----------------------|------------------------------------------------|
-| `xschem.sh`  | [xschem](https://github.com/StefanSchippers/xschem) — schematic capture / netlisting |
-| `magic.sh`   | [magic](https://github.com/RTimothyEdwards/magic) — VLSI layout tool                 |
-| `ngspice.sh` | [ngspice](https://github.com/ngspice/ngspice) — mixed-signal circuit simulator       |
+| `xschem.sh`  | [xschem](https://github.com/StefanSchippers/xschem) - schematic capture / netlisting |
+| `magic.sh`   | [magic](https://github.com/RTimothyEdwards/magic) - VLSI layout tool                 |
+| `ngspice.sh` | [ngspice](https://github.com/ngspice/ngspice) - mixed-signal circuit simulator       |
+| `gaw.sh`     | [gaw](https://www.rvq.fr/php/ndl.php?id=gaw.?-.*) - Analog waveform visualizer      |
 
 ## Requirements
 
