@@ -2,6 +2,7 @@
 # 2026-10-04
 # Instructions to download and install Gaw (Analog waveform visualizer)
 # Tested on Fedora 44.
+# Usage: chmod +x gaw.sh && ./gaw.sh
 
 # Creates a file called eda-tools where all the git repos will be downloaded to  
 [ -d "$HOME/eda-tools" ] || mkdir "$HOME/eda-tools"
