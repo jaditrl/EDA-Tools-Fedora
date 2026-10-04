@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # 2026-10-01
 # Builds and installs ngspice (mixed-signal circuit simulator) on Fedora 44.
-# Usage: chmod +x ngspice.sh && ./install_ngspice.sh
+# Usage: chmod +x ngspice.sh && ./ngspice.sh
 
 set -e  # stop on first error
 
