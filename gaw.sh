@@ -13,3 +13,9 @@ echo "==> Download link: https://www.rvq.fr/php/ndl.php?id=gaw.?-.*"
 echo "==> Extract file:tar zxvf gaw3-yyyymmdd.tar.gz"
 
 echo "==> Change Directory to: cd gaw3-yyyymmdd"
+
+echo "==> Run: ./configure"
+
+echo"==> Build: make"
+
+echo"==> Install: sudo make install"
