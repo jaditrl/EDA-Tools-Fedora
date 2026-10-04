@@ -4,7 +4,7 @@
 # Usage: chmod +x install_magic.sh && ./install_magic.sh
 
 set -e  # stop on first error
-[ -d "$HOME/eda-tools" ] || mkdir "$HOME/eda-tools" # Creates an eda-tools where all the git folders will be downloaded to in your home file 
+[ -d "$HOME/eda-tools" ] || mkdir "$HOME/eda-tools"
 
 cd $HOME/eda-tools
 
@@ -22,10 +22,6 @@ echo "==> Configuring..."
 ./configure
 
 echo "==> Building..."
-# Modern GCC (14+/15+) turns old K&R-style declarations and
-# incompatible-pointer-type assignments into hard errors instead of
-# warnings. Magic's source predates these checks, so we relax them
-# to get a clean build.
 make CFLAGS="-std=gnu17 -Wno-error=incompatible-pointer-types -g -m64 -fPIC"
 
 echo "==> Installing..."
