@@ -17,6 +17,6 @@ echo "==> Change Directory to: cd gaw3-yyyymmdd"
 
 echo "==> Run: ./configure"
 
-echo"==> Build: make"
+echo "==> Build: make"
 
-echo"==> Install: sudo make install"
+echo "==> Install: sudo make install"
